@@ -1,0 +1,17 @@
+{
+    "0": {
+        "text": "This be a square",
+        "color": "blue",
+        "size": "small"
+    },
+    "1": {
+        "text": "Here lies a square",
+        "color": "red",
+        "size": "medium"
+    },
+    "2": {
+        "text": "Tharrrr be a squarrreee",
+        "color": "black",
+        "size": "large"
+    }
+}

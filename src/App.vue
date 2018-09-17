@@ -1,17 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <square text="This is a square" size="small"/>
+    <square text="This is a square" size="medium"/>
+    <square text="This is a square" size="large"/>
+    <square text="This is a square" size="large" color="#000"/> -->
+    <square
+      v-for="data in myJson"
+      v-bind:key="data.text"
+      v-bind:text="data.text"
+      v-bind:size="data.size"
+      v-bind:color="data.color"
+    />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import square from './components/square.vue'
+import json from './json/data.json'
 
 export default {
   name: 'app',
+  data(){
+    return{
+      myJson: json
+    }
+  },
   components: {
-    HelloWorld
+    square
   }
 }
 </script>
