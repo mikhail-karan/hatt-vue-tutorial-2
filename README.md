@@ -1,4 +1,4 @@
-# hello-world
+# HATT Vue.js Tutorial Part 2
 
 ## Project setup
 ```
