@@ -20,6 +20,9 @@ export default {
     background-color: blue;
     color: #fff;
     margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .small {
     width: 100px;
